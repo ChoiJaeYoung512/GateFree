@@ -22,5 +22,13 @@ FP(FingerPrinting) 알고리즘 사용하여 RSSI_MAP과 data 비교
 
 # 코드
 1. utils - import 코드 모음
-
-- 
+- util의 import 접근 방법
+```
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+from utils import load_data
+from utils import fingerprinting
+from utils import fingerprinting2
+from utils import FP3
+from utils import save_file
+```
+2. visualization - 데이터 분석 시각화
